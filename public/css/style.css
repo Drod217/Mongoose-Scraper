@@ -1,0 +1,104 @@
+/****************/
+/*Body --Styling*/
+/****************/
+#savenote {
+    background: #33C3F0;
+    color: white;
+}
+
+
+
+body { 
+    background-image: url("../media/asteroids.png");
+}
+
+p {
+    color: white;
+}
+#scrape {
+    color: white;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: #33C3F0;
+    font-size: 2.4rem;
+    font-style: italic;
+}
+h5 {
+    color: #33C3F0;
+}
+
+#wrapper {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+#articles {
+  display: inline-block;
+  overflow: auto;
+  width: 60%;
+  height: 700px;
+}
+#notes {
+  float: right;
+  width: 30%;
+}
+textarea, input {
+  display: block;
+  width: 100%;
+  background-color: #DCDCDC;
+}
+input {
+  height: 36px;
+  font-size: 24px;
+}
+
+.frame-me {
+  border-style: solid;
+  border-width: thin;
+  margin:10px 0 10px 0;
+
+}
+
+
+/****************/
+/*Font Styling*/
+/****************/
+/*
+p {
+  margin: 20px, 20px, 5px, 10px;
+}*/
+
+.the-text {
+    font-style: bolder;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: -21px;
+}
+
+.the-link {
+    font-style: italic;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-bottom: -17px;
+}
+
+textarea {
+  height: 200px;
+  font-size: 18px;
+}
+
+/****************/
+/*Buttons*/
+/****************/
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+      margin-left:15px
+}
+
